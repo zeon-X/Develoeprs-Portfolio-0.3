@@ -1,5 +1,9 @@
 import React from "react";
 import "./Contact.css";
+import p1 from "../../assets/597177.png";
+import p2 from "../../assets/4946005.png";
+import p3 from "../../assets/1384030.png";
+import p4 from "../../assets/684850.png";
 
 const Contact = () => {
   return (
@@ -28,37 +32,21 @@ const Contact = () => {
       {/* START */}
       <div className="mx-48 my-20">
         <p>Contact Me</p>
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-5 justify-center items-center ">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-5 justify-center items-center ">
           <div className="rounded shadow-lg px-2 pb-10 flex flex-col justify-center items-center">
-            <img
-              className="p-14"
-              src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
-              alt=""
-            />
+            <img className="lg:p-12" src={p1} alt="" />
             <p>+8809696349906</p>
           </div>
           <div className="rounded shadow-lg px-2 pb-10 flex flex-col justify-center items-center">
-            <img
-              className="p-10"
-              src="https://cdn-icons.flaticon.com/png/512/4946/premium/4946005.png?token=exp=1660783522~hmac=8067ea7844ce8e52bd9bc79e067cdb6e"
-              alt=""
-            />
+            <img className="p-12" src={p2} alt="" />
             <p>mdshefatzeon@gmail.com</p>
           </div>
           <div className="rounded shadow-lg px-2 pb-10 flex flex-col justify-center items-center">
-            <img
-              className="p-12"
-              src="https://cdn-icons-png.flaticon.com/512/1384/1384030.png"
-              alt=""
-            />
+            <img className="p-12" src={p3} alt="" />
             <p>linkedin.com/in/zeonx</p>
           </div>
           <div className="rounded shadow-lg px-2 pb-10 flex flex-col justify-center items-center">
-            <img
-              className="p-12"
-              src="https://cdn-icons-png.flaticon.com/512/684/684850.png"
-              alt=""
-            />
+            <img className="p-12" src={p4} alt="" />
             <p>Silicon valley, Rajshahi</p>
           </div>
         </div>

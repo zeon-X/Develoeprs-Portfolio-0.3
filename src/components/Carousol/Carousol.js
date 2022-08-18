@@ -118,7 +118,7 @@ const Carousol = () => {
       <div className="lg:px-48 sm:px-10 my-24 flex flex-col justify-center items-center">
         <p className="text-3xl mb-10 font-light">Experts In</p>
 
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 justify-center items-center gap-10">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 justify-center items-center lg:gap-10 sm:gap-3">
           <div className="flex flex-col justify-center items-center p-8 shadow-lg rounded-lg border  exp_card">
             <CircularProgressbar
               value={m}

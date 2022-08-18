@@ -6,7 +6,7 @@ import NotFround from "./components/NotFround/NotFround";
 
 function App() {
   return (
-    <div className="App p-10 min-h-screen">
+    <div className="App lg:p-10 sm:p-2 min-h-screen">
       <Routes>
         <Route path="/" element={<Carousol></Carousol>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
