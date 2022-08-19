@@ -30,11 +30,11 @@ const Contact = () => {
       </div>
 
       {/* START */}
-      <div className="mx-48 my-20">
+      <div className="lg:mx-48 sm:mx-28 my-20">
         <p>Contact Me</p>
         <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-5 justify-center items-center ">
           <div className="rounded shadow-lg px-2 pb-10 flex flex-col justify-center items-center">
-            <img className="lg:p-12" src={p1} alt="" />
+            <img className="p-12" src={p1} alt="" />
             <p>+8809696349906</p>
           </div>
           <div className="rounded shadow-lg px-2 pb-10 flex flex-col justify-center items-center">

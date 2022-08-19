@@ -2,7 +2,7 @@ import React from "react";
 
 const NotFround = () => {
   return (
-    <div className="bg-white rounded-xl pb-10 shadow-2xl ">
+    <div className="bg-white rounded-xl pb-10 shadow-2xl">
       <div className="flex justify-between items-center p-10 lg:shadow-lg">
         <p className="text-sm font-semibold">
           Muhammad Shefat Zeon |
@@ -25,7 +25,7 @@ const NotFround = () => {
       </div>
 
       {/* START */}
-      <div className="mx-48 my-20 h-full flex justify-center items-center">
+      <div className="lg:mx-48 sm:mx-5 my-20 flex justify-center items-center h-[300px]">
         <img
           style={{ width: "100px" }}
           src="https://cdn-icons-png.flaticon.com/512/6537/6537649.png"
