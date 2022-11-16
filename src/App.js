@@ -1,15 +1,13 @@
-import { Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Carousol from "./components/Carousol/Carousol";
-import Contact from "./components/Contact/Contact";
-import NotFround from "./components/NotFround/NotFround";
+import MyPortfolio from "./pages/MyPortfolio";
+import NotFround from "./shared/NotFound";
 
 function App() {
   return (
-    <div className="App lg:p-10 sm:p-2 min-h-screen">
+    <div className="App lg:px-8 md:px-4 sm:p-3">
       <Routes>
-        <Route path="/" element={<Carousol></Carousol>}></Route>
-        <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/" element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path="*" element={<NotFround></NotFround>}></Route>
       </Routes>
     </div>
